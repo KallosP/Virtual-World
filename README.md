@@ -3,8 +3,8 @@
 A simulated 2D world wtih various entities that have their own unique roles. 
 
 ## Entities
-| Image | Type |
-| ----------- | ----------- |
+| Image | Type | Role |
+| ----------- | ----------- | ----------- |
 | ![dude3](https://github.com/KallosP/Virtual-World/blob/main/images/dude3.png?raw=true) ![poisoned_dude3](https://github.com/KallosP/Virtual-World/blob/main/images/poisoned_dude3.png?raw=true) ![speed_dude3](https://github.com/KallosP/Virtual-World/blob/main/images/speed_dude3.png?raw=true)| DudeFull/NotFull |
 | ![slime2](https://github.com/KallosP/Virtual-World/blob/main/images/slime2.png?raw=true) | Slime |
 | ![house](https://github.com/KallosP/Virtual-World/blob/main/images/house.png?raw=true) | House |
