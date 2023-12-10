@@ -2,7 +2,7 @@
 
 A simulated 2D world with various entities that have unique roles, actions, and animations. 
 
-## Entities
+## Entities/Rules
 | Image | Type | Role |
 | ----------- | ----------- | ----------- |
 | ![dude3](https://github.com/KallosP/Virtual-World/blob/main/images/dude3.png?raw=true) ![poisoned_dude3](https://github.com/KallosP/Virtual-World/blob/main/images/poisoned_dude3.png?raw=true) ![speed_dude3](https://github.com/KallosP/Virtual-World/blob/main/images/speed_dude3.png?raw=true)| DudeFull | *Attempts to navigate to Slime if present.* Is a wood chopping entity who has already collected as much wood as they can carry, navigates to the nearest House to drop off collected wood, transforms into a DudeNotFull once task is completed. |
