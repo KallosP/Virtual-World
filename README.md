@@ -1,6 +1,6 @@
 # Virtual-World
 
-A simulated 2D world with various entities that have unique roles, actions, and animations. 
+A simulated 2D world with a user-triggered event and various entities that have unique roles, actions, and animations. 
 
 ## Entities/Rules
 | Image | Type | Role |
