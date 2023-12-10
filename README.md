@@ -18,16 +18,16 @@ A simulated 2D world with a user-triggered event and various entities that have 
 
 ## Event
 ### Description:
-1. Click any tile in the world to trigger the event
-2. When the event is triggered, a slime and 1-3 poisoned tiles attempt to spawn (see requirements below)
-3. The only affected entity is the Dude. Their movement speed is either increased or decreased (see cases below)
-4. The new entity is a slime and it should have a jumping animation and be constantly moving to find the nearest tree
+1. Clicking any tile in the world triggers the event.
+2. When the event is triggered, a slime and 1-3 poisoned tiles attempt to spawn (see requirements below).
+3. The only affected entity is the Dude. Their movement speed is either increased or decreased (see cases below).
+4. The new entity is a slime and it should have a jumping animation and be constantly moving to find the nearest tree.
 
 ### Visualization:
-- When the user clicks on any tile: a slime attempts to spawn and 1, 2, or 3 grass tiles (in a 5x5 tile area with the clicked position at the center) are affected (poisoned) by the event
+- When the user clicks on any tile: a slime attempts to spawn and 1, 2, or 3 grass tiles (in a 5x5 tile area with the clicked position at the center) are affected (poisoned) by the event.
 - Whenever a Dude leaves a poisoned tile, that tile is turned back to normal effectively "transferring" the poison to the Dude.
-- Whenever a Fairy moves over a poisoned tile, that tile is "cured" and turned back to normal
-- Only grass tiles can become poisoned (flowers, dirt, bridges, etc. cannot be poisoned)
+- Whenever a Fairy moves over a poisoned tile, that tile is "cured" and turned back to normal.
+- Only grass tiles can become poisoned (flowers, dirt, bridges, etc. cannot be poisoned).
 
 ### Effect:
 This event can have two possible effects only on the Dude: 
