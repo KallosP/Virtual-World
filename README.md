@@ -37,3 +37,6 @@ This event can have two possible effects only on the Dude:
 ### New Entity:
 - Upon triggering the event, a new slime entity attempts to spawn (can only spawn on non-occupied tile). If the tile is occupied, a message is provided in the console with the appropriate message.
 - This new entity animates and uses A* pathfinding to locate the nearest tree from its current position. The goal for the slime is to reach the nearest tree without being caught by the Dude. The slime is either removed if it reaches a tree or if a Dude catches it.
+
+## Pathing
+- All moving entities use the A* search algorithm as their main pathing strategy. A single-step algorithm is also included if a less effective pathing strategy is desired.
