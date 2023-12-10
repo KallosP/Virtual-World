@@ -6,6 +6,8 @@ A simulated 2D world wtih various entities that have their own unique roles.
 | Image | Type |
 | ----------- | ----------- |
 | ![alt text](https://github.com/KallosP/Virtual-World/blob/main/images/dude3.png?raw=true) | DudeFull/NotFull (depends on goal/movement) |
+| ![alt text](https://github.com/KallosP/Virtual-World/blob/main/images/dude3.png?raw=true) | DudeFull/NotFull (depends on goal/movement) |
+
 | ![alt text](https://github.com/KallosP/Virtual-World/blob/main/images/house.png?raw=true) | House |
 | ![alt text](https://github.com/KallosP/Virtual-World/blob/main/images/tree0.png?raw=true) | Tree |
 | ![alt text](https://github.com/KallosP/Virtual-World/blob/main/images/stump.png?raw=true) | Stump |
