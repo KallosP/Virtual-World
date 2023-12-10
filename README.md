@@ -16,8 +16,8 @@ A simulated 2D world wtih various entities that have their own unique roles.
 | ![flowers](https://github.com/KallosP/Virtual-World/blob/main/images/flowers.png?raw=true) ![grass](https://github.com/KallosP/Virtual-World/blob/main/images/grass.png?raw=true) ![dirt_vert_right](https://github.com/KallosP/Virtual-World/blob/main/images/dirt_vert_right.png?raw=true) ![bridge](https://github.com/KallosP/Virtual-World/blob/main/images/bridge.png?raw=true) ![poisoned_grass](https://github.com/KallosP/Virtual-World/blob/main/images/poisoned_grass.png?raw=true)| Background |
 
 ### Roles
-**DudeFull:** Is a wood chopping entity who has already collected as much wood as they can carry, navigates to the nearest House to drop off collected wood, transforms into a DudeNotFull once task is completed.
-**DudeNotFull:** Navigates to nearest Tree or Sapling in search of something to chop down, will search until it has reached its resource limit moving to multiple Trees or Saplings if necessary, transforms into a DudeFull once it hits its resource limit.
-**Dude:** Attempts to navigate to Slime while present.
-**Slime:** Navigates to nearest Tree, becomes hidden upon successfully reaching destination.
-**House:** Remains static. Does not animate or complete any actions. Is the destination for DUDE_FULL entities.
+- **DudeFull:** Is a wood chopping entity who has already collected as much wood as they can carry, navigates to the nearest House to drop off collected wood, transforms into a DudeNotFull once task is completed.
+- **DudeNotFull:** Navigates to nearest Tree or Sapling in search of something to chop down, will search until it has reached its resource limit moving to multiple Trees or Saplings if necessary, transforms into a DudeFull once it hits its resource limit.
+- **Dude:** Attempts to navigate to Slime while present.
+- **Slime:** Navigates to nearest Tree, becomes hidden upon successfully reaching destination.
+- **House:** Remains static. Does not animate or complete any actions. Is the destination for DUDE_FULL entities.
