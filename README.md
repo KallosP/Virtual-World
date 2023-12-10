@@ -2,7 +2,7 @@
 
 A simulated 2D world with a user-triggered event and various entities that have unique roles, actions, and animations. 
 
-![](https://github.com/KallosP/Virtual-World/demo.gif)
+![](https://github.com/KallosP/Virtual-World/blob/main/demo.gif)
 
 ## Entities/Rules
 | Image | Type | Role |
